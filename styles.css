@@ -340,6 +340,8 @@ header {
 .flex-container {
   display: flex;
   flex-direction: row;
+  padding-right: 30px;
+  padding-left: 30px;
   font-size: 30px;
   flex-wrap: wrap;
 }
@@ -353,11 +355,11 @@ header {
 }
 
 .flex-item {
+  box-shadow: 5px 5px 10px gray;
   background-color: #f1f1f1;
   padding: 10px;
   flex: 30%;
   margin-left: 20px;
-  margin-right: 20px;
   margin-top: 20px;
   border-radius: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
