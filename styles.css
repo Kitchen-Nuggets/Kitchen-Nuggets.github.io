@@ -340,7 +340,7 @@ header {
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding-right: 30px;
+  padding-right: 40px;
   padding-left: 30px;
   font-size: 30px;
   flex-wrap: wrap;
