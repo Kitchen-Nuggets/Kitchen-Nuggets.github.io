@@ -545,6 +545,16 @@ header {
 /* RESPONSIVENESS */
 @media (max-width: 1280px) {
 
+  .technologies img {
+    width: 25px;
+    margin-right: 2px;
+  }
+  
+  .technologies h2 {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+
   .aboutMe .aboutTitle {
     font-size: 20px;
   }
@@ -605,6 +615,16 @@ header {
 }
 
 @media (max-width: 870px) {
+
+  .technologies img {
+    width: 20px;
+    margin-right: 0px;
+  }
+  
+  .technologies h2 {
+    font-size: 12px;
+    margin-right: 4px;
+  }
 
   .openUrlCred {
     margin-top: 15px;
