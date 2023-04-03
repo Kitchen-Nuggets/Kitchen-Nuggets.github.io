@@ -340,7 +340,7 @@ header {
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding-right: 40px;
+  padding-right: 45px;
   padding-left: 30px;
   font-size: 30px;
   flex-wrap: wrap;
@@ -389,6 +389,22 @@ header {
 .flex-item li{
   font-size: 16px;
   list-style-type: disc;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.technologies img {
+  width: 30px;
+  margin-right: 2px;
+}
+
+.technologies h2 {
+  font-size: 16px;
+  margin-right: 8px;
 }
 
 /* TIMELINE */
