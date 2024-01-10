@@ -51,19 +51,10 @@ header {
 .navbar .links {
   display: flex;
   gap: 5rem;
+  transition: 0.5s;
 }
 
 .navbar .links a:hover {
-  transition: 0.5s;
-  display: flex;
-  gap: 2rem;
-  border: 1px white solid;
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-}
-
-.navbar .links a:not(:hover) {
   transition: 0.5s;
   display: flex;
   gap: 2rem;
