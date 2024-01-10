@@ -51,7 +51,7 @@ header {
 .navbar .links {
   display: flex;
   gap: 5rem;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 }
 
 .navbar .links a:hover {
