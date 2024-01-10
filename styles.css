@@ -153,6 +153,14 @@ header {
   margin-left: 20%;
 }
 
+.helloContainer img {
+  float: right;
+  border-radius: 30px;
+  margin-right: 20%;
+  margin-top: -28%;
+  width: 30%;
+}
+
 .helloContainer .hello {
   background-color: #DAD2BD;
   padding-left: 10px;
@@ -564,6 +572,12 @@ header {
 /* RESPONSIVENESS */
 @media (max-width: 1280px) {
 
+  .helloContainer img {
+    border-radius: 30px;
+    margin-right: 5%;
+    margin-top: -40%;
+  }
+
   .technologies img {
     width: 25px;
     margin-right: 2px;
@@ -634,6 +648,10 @@ header {
 }
 
 @media (max-width: 870px) {
+
+  .helloContainer img {
+    display: none;
+  }
 
   .technologies img {
     width: 20px;
